@@ -155,8 +155,9 @@ main .images-container .image01{
     width: 293px;
     background-color: black;
     position: relative;
-    top: 210px;
-    left: 55px;
+    top: 160px;
+    left: 115px;
+    border-radius: 50%;
 }
 /* the button of next and back codes */
 button {
@@ -198,10 +199,22 @@ button {
 #next{
     position: relative;
     top: 400px;
-    right: 170px;
+    right: 120px;
 }
 #back{
     position: relative;
     top: 400px;
-    left: 400px;
+    left: 500px;
 }
+/* the eclipes of the images  */
+.esclip{
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 115px;
+    bottom: -50px;
+    border: 3px dotted black;
+}
+
