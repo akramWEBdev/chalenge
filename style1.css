@@ -194,6 +194,7 @@ button {
     margin-bottom: 60%;
     border-bottom: 15px solid white;
   }
+  /* the position of the buttons */
 #next{
     position: relative;
     top: 400px;

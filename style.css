@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -7,26 +7,29 @@
   }
   body{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding-right: 10px;
     background-image: url(fun-facts-bg.png);
     background-size:  100px;
     transform:rotate(10der);
     background-repeat: no-repeat;
+    overflow: hidden;
   }
   .back-img{
-    background-image: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
-    width: 900px;
-    height: 750px;
+    background-image: url(upstream2.webp);
+    width: 1200px;
+    height: 110vh;
     background-size: cover;
     transform: rotate(-80deg);
-   
-    margin-right:180px;
+   position: relative;
+   right: 270px;
+   bottom: 40px;
   }
   
   .wrapper{
     position: relative;
+    right: 100px;
     width: 450px;
     height: 100vh;
     border: none;
@@ -146,11 +149,9 @@
     box-shadow: 5px 5px 10px #818181f3;
     letter-spacing: 2px;
   }
-=======
-body{
+/* body{
     display: flex;
     justify-self: center;
     align-items: center;
 
-}
->>>>>>> 4b6a22e7730a1aadeec22b30a189cf8ec3471dd1
+} */
