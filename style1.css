@@ -158,4 +158,49 @@ main .images-container .image01{
     top: 210px;
     left: 55px;
 }
-
+/* the button of next and back codes */
+button {
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #a4ff6b;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    border: #a4ff6b;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #a4ff6b;
+  }
+  
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    margin-bottom: 60%;
+    border-bottom: 15px solid white;
+  }
+#next{
+    position: relative;
+    top: 400px;
+    right: 170px;
+}
+#back{
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
