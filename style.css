@@ -5,28 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
-  /*body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    background-image: url(fun-facts-bg.png);
-    background-size:  100px;
-    transform:rotate(10der);
-    background-repeat: no-repeat;
-    overflow: hidden;
-  }
-  .back-img{
-    background-image: url(upstream2.webp);
-    width: 1200px;
-    height: 110vh;
-    background-size: cover;
-    transform: rotate(-80deg);
-   position: relative;
-   right: 270px;
-   bottom: 40px;
-  }
-  */
+ 
   body{
     display: flex;
     justify-content: flex-end;
@@ -44,18 +23,7 @@
     justify-content: center;
     align-items: center;
   }
-  /*.wrapper{
-    position: relative;
-    right: 100px;
-    width: 450px;
-    height: 100vh;
-    border: none;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 0px;
-  }*/
+  
   .wrapper .from-box-logIn{
    position: absolute;
    top: 0px;
@@ -69,7 +37,7 @@
   .from-box-logIn h2{
     font-size: 32px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     position: relative;
   }
   .from-box-logIn h2::after{
@@ -116,7 +84,7 @@
   
   .from-box-logIn i{
     position: relative;
-    bottom: -45PX;
+    bottom: -47PX;
     left: 0px;
     transform: translateY(-50%);
     color:rgb(180, 179, 179);
@@ -166,9 +134,10 @@
     box-shadow: 5px 5px 10px #818181f3;
     letter-spacing: 2px;
   }
-  .change{
+  .change p{
     margin-top: 20px;
-    margin-left: 64px;
+    margin-right: 30px;
+    text-align: center;
   }
   .change-link{
     text-decoration: none;
@@ -181,5 +150,5 @@
   .back{
     text-align: center;
     margin: 10px 0;
-    color: rgb(68, 65, 65);
+    color: rgb(87, 84, 84);
   }
