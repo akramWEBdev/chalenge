@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style1.css">
     <title>chalenge</title>
-    <link rel="stylesheet" href="style1.css">
 </head>
-<body>
+<body id="body">
    <!-- main page --> 
+   <!--5dmt b div bach tshl 3lya l5dma t3 color changing-->
+   <div class="🟢" id="circle">
+    <div class="VR" id="daira">
+        <img  src="images/image (2).png" class="pic1">
+        <img  src="images/image (3).png" class="pic2">
+        <img  src="images/image (1).png" class="pic3">
+        <img  src="images/image.png" class="pic4">
+        <img  src="images/image (5).png" class="pic5">
+    </div>
+   </div>
    <!-- header -->
    <header>
-    <nav>
+       <nav>
 <div class="logo">
 <img src="logo.png" alt="logo font" width="100%">
 </div>
@@ -21,34 +32,44 @@
     <li><a href="#">ABOUT</a></li>
     <li><a href="#">MENU</a></li>
     <li><a href="#">CONTACT</a></li>
-    <li><button class="Order-btn">Order Now</button></li>
+    <li><a href="index0.html" id="h" ><button class="Order-btn" id="btn2">Order Now</button></a></li>
 </ul>
 </div>
 </nav>
-   </header>
+</header>
    <main>
-    <section class="images-container">
+    
+    <div class="images-container">
+        
+
         <!-- the buttons -->
-        <button id="next">
-            <div class="arrow-up"></div>
+        <div class="nandb">
+        <button id="next"onclick="orange()" >
+            <i class="fa-solid fa-arrow-down"></i>
         </button>
-        <button id="back">
-            <div class="arrow-up"></div>
-        </button>
+        <div class="bigimg">
+            <img src="images/image (2).png" class="imagediv" id="img1"></img>
+            <img src="images/image (1).png" class="imagediv2"id="img2"></img>
+        </div>
+        <button  id="back"onclick="green()">
+            <i class="fa-solid fa-arrow-down"></i>
+        </button></div>
         <!-- the big image -->
-        <div class="image01">
+        
 
         </div>
-    </section>
-    <section class="texts">
-        <h1>Delicious</h1>
+    </div >
+    <section>
+        <div class="texts">
+        <h1 id="textid">Delicious</h1>
         <h2>Quench The Hunger</h2>
         <p>
             i dont know what to write but do your best <br> when you are tired aet somthinge in the page
         </p>
         <div>
-            <button class="order-btn2">Order Now</button>
+            <a href="index0.html"><button  class="order-btn2"id="btn1">Order Now</button></a>
         </div>
+    </div>
     </section>
    </main>
    

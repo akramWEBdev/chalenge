@@ -4,47 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style0.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <title>chalenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- <<<<<<< Updated upstream:index0.html -->
-   <!-- login page -->
-<script src="script0.js"></script>
-=======
-<!-- <<<<<<< HEAD -->
-  <DIV class="back-img">
-  </DIV>
-  <div class="wrapper" >
+
     
-    <div class="from-box-logIn">
-      <h2 class="line">Login</h2>
-      
-      <form action="#">
-        <div class="input-box">
-          <input type="text" required>
-          <label>Username</label>
-          <i class='bx bx-user'></i>
+
+
+  <!-- login page -->
+  <div class="container" id="container">
+    <div class="form-container sign-up">
+        <form>
+            <h1>Create Account</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fab fa-google"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>sign up</button>
+        </form>
+    </div>
+    
+    <div class="form-container sign-in">
+        <form>
+            <h1>Login</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fab fa-google"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <a href="#">Forget Your Password?</a>
+            <button>login</button>
+            <a href="index1.html" id="gb">Go back   <i class="fas fa-arrow-left"></i></a>
+        </form>
+    </div>
+    <div class="toggle-container">
+        <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to start ordring </p>
+                <button class="hidden" id="login">login</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Do you want to join us?!</h1>
+                <p>Register with your personal details to start useing our services</p>
+                <button class="hidden" id="register">Create Account</button>
+            </div>
         </div>
-        <div class="input-box">
-          <input type="Password" required>
-          <label for="">Password</label>
-          <i class='bx bx-lock-alt'></i>
-          
-        </div>
-        <div class="Password-forget-link">
-          <P class="Password-forget"><a href="#"> Forgat Password!</a>
-          </P>
-          
-        </div>
-        <div class="enter">
-         <button type="submit" class="butt">LOGIN</button>
-        </div>
-        
-        </div>
-      </form>
-    <script src="script.js"></script>
-<!-- >>>>>>> 4b6a22e7730a1aadeec22b30a189cf8ec3471dd1
->>>>>>> Stashed changes:index.html -->
+    </div>
+</div>
+
+ <script src="script0.js"></script>
 </body>
 </html>

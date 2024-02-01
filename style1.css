@@ -14,36 +14,46 @@ font-family: 'Inter', sans-serif;
 font-family: 'Lakki Reddy', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif; */
+
+/*drt klh bl poppins bach n9dr nt7km fih kima 7ayb (b3d knfd nbdlo fihm kima 7aybin)*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
   *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
 width: 100%;
 height: 100vh;
 background-color: white;
-font-family: 'Black Ops One', system-ui;
-font-family: 'Inter', sans-serif;
-font-family: 'Lakki Reddy', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'PT Sans', sans-serif;
+overflow: hidden;
 display: flex;
 flex-direction: column;
 
 
+}/*#45A20B*/
+.🟢{
+border-radius: 50%;
+ width:1176px;  
+ height: 1176px;
+ background-color: #A4FF6B;
+ position: absolute;
+display: flex;
+justify-content: center;
+overflow: hidden;
+align-items: center;
+ top:-180px;
+ left: 350px;
+ transform: translate(70px,-500px);
+ z-index: -1;
+ transition: all 0.5s ease-in-out;
+
 }
- body::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #a4ff6b;
-    clip-path: circle(40% at 70% 10% );
-    z-index: -1;
-} 
+    
+    
+
 /*  the headers codes  */
 header{
     width: 100%;
@@ -72,13 +82,13 @@ justify-content: space-evenly;
 nav .links ul li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    font-weight: 900;
-}
-nav .links ul li a{
+    
+    font-size: 18px;
+    font-weight: 600; 
     padding: 5px;
     transition: all 0.2s;
 }
+
 
 nav .links ul li a:hover{
 border: solid 2px black;
@@ -90,9 +100,10 @@ nav .links ul li .Order-btn{
     border-radius: 50px;
     border: none;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
 color: white;
-background-color: #45a20b;
+background-color: #45A20B;
+
 border: none;
 }
 /*  the main codes */
@@ -104,24 +115,31 @@ gap: 10%;
 justify-content: center;
 }
 main .texts{
-    display: flex;
-    height: 100%;
-    width: 40%;
+  
+    margin-top: 200px;
+    width: 100%;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; 
+    position: relative;
+    left: 10px;
+    display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    align-self: start;
+    
 }
 main .texts h1{
     font-size: 60px;
     color: #a4ff6b;
+    transition: all 0.5s;
+    font-weight: 700;
     font-style: italic;
-    font-weight: 900;
 }
 main .texts h2{
-    font-size: 40px;
-    position: relative;
-    left: -40px;
+    font-size: 30px;
+    align-self: start;
+    font-weight: 500;
+    
 }
 main .texts p {
     font-weight: 600;
@@ -159,49 +177,141 @@ main .images-container .image01{
     left: 55px;
 }
 /* the button of next and back codes */
+/*8yrt chwya hna bach maykonch nfc lcolor t3 lbig circle*/
 button {
     width: 60px;
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #a4ff6b;
+    background-color: #45a20b;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
     z-index: 100;
-    border: #a4ff6b;
+    border: none;
+    cursor: pointer;
     transition: 0.5s;
   }
+
   
   button:hover {
     transform: scale(1.1);
+    background-color: hsl(97, 87%, 40%);
+
   }
   
   button:active {
-    background-color: #a4ff6b;
+    background-color: #55dd00;
   }
   
-  .arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35%;
-    margin-bottom: 60%;
-    border-bottom: 15px solid white;
-  }
-  /* the position of the buttons */
-#next{
-    position: relative;
-    top: 400px;
-    right: 170px;
+/*5dmt b icons 5ir  /* the position of the buttons */
+
+/*akram start here*/
+.imges{
+width: 10px;
+height: 10px;
+background-color: #fff;
+
 }
-#back{
-    position: relative;
-    top: 400px;
-    left: 400px;
+.images-circle{
+    background:url(upstream2.webp);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    transform:translate(268px ,200px);
+    
+
 }
+.order-btn2{
+font-weight: 500;
+}
+
+.nandb{
+    position: relative;
+    top:200px;
+    height: 400px;
+    left: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.imagediv{
+    height: 300px;
+    width: 300px;
+    
+    transition: all 0.5s;
+}
+
+.imagediv2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    transition: all 0.5s;
+    z-index: -1;
+}
+.bigimg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.VR{
+    height: 520px;
+    width: 520px;
+
+    position: absolute;
+    bottom: -290px;
+    border: 2px white;
+    border-style: dashed;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    
+    
+
+}
+.pic1{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+}
+.pic2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.pic3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+.pic4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    right: -50px;
+}
+.pic5{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: -50px;
+}
+
+nav .links ul li #h:hover{
+    border: none;
+    
+    }
+    
