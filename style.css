@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
-  body{
+  /*body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,25 @@
    right: 270px;
    bottom: 40px;
   }
-  
+  */
+  body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    background-image: url(log.png); 
+  }
   .wrapper{
+    position: relative;
+    width: 370px;
+    height: 100vh;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*.wrapper{
     position: relative;
     right: 100px;
     width: 450px;
@@ -38,7 +55,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 0px;
-  }
+  }*/
   .wrapper .from-box-logIn{
    position: absolute;
    top: 0px;
@@ -47,8 +64,7 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
-   right: 0;
+   right: 150px;
   }
   .from-box-logIn h2{
     font-size: 32px;
@@ -59,10 +75,10 @@
   .from-box-logIn h2::after{
     content: "";
     display: block;
-    width: 17%;
+    width: 20%;
     height: 3px;
-    background-color: blue;
-    margin-left: 187px;
+    background-color: #238fe7;
+    margin-left: 150px;
     margin-top: 10px;
     
   }
@@ -95,7 +111,7 @@
   .input-box input:focus~label,
   .input-box input:valid~label{
     top: 2px;
-    color: blue;
+    color: #238fe7;
   }
   
   .from-box-logIn i{
@@ -106,7 +122,7 @@
     color:rgb(180, 179, 179);
   }
   .from-box-logIn :focus~i{
-    color: blue;
+    color: #238fe7;
   }
   .enter{
     display: flex;
@@ -118,7 +134,8 @@
   .Password-forget-link{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   .Password-forget a{
     text-decoration: none;
@@ -133,7 +150,7 @@
     position: relative;
     width: 60%;
     height: 35px;
-    background: blue;
+    background: #238fe7;
     border: none;
     border-radius: 30px;
     color: white;
@@ -149,9 +166,20 @@
     box-shadow: 5px 5px 10px #818181f3;
     letter-spacing: 2px;
   }
-/* body{
-    display: flex;
-    justify-self: center;
-    align-items: center;
-
-} */
+  .change{
+    margin-top: 20px;
+    margin-left: 64px;
+  }
+  .change-link{
+    text-decoration: none;
+    color:rgb(8, 211, 211) ;
+    font-weight: bolder;
+  }
+  .change-link:hover{
+    color: rgb(44, 44, 207);
+  }
+  .back{
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(68, 65, 65);
+  }
