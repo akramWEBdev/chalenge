@@ -158,6 +158,7 @@ main .images-container.image01{
     top: 160px;
     left: 115px;
     border-radius: 50%;
+    
 }
     
 
@@ -166,6 +167,7 @@ main .images-container.image01{
     top: 200px;
     left: 520px;
     display: inline-block;
+    z-index: 10;
 
 }
 .image03{
@@ -173,6 +175,7 @@ main .images-container.image01{
     top:80px;
     left:315px;
     display: inline-block;
+    z-index: 10;
 
 }
 .image04{
@@ -180,6 +183,7 @@ main .images-container.image01{
     top:40px ;
     left: 40px;
     display: inline-block;
+    z-index: 10;
 
 }
 .image05{
@@ -187,6 +191,7 @@ main .images-container.image01{
     top:100px;
     left: -37%;
     display: inline-block;
+    z-index: 10;
 
 }
 .image06{
@@ -194,12 +199,13 @@ main .images-container.image01{
     top: 290px;
     left: -70%;
     display: inline-block;
-    
+    z-index: 10;
 }
 .image07{
     position: relative;
     top: 200px;
     left: 210px;
+    z-index: 10;
 }
 .a1{
     height: 100px;
@@ -274,5 +280,7 @@ button {
     right: 115px;
     bottom: -50px;
     border: 3px dotted black;
+        
+    
 }
 
