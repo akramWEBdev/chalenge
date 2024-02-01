@@ -150,7 +150,7 @@ main .images-container{
     height: 100%;
     order: 1;
 }
-main .images-container .image01{
+main .images-container.image01{
     height: 293px;
     width: 293px;
     background-color: black;
@@ -159,6 +159,64 @@ main .images-container .image01{
     left: 115px;
     border-radius: 50%;
 }
+    
+
+.image02{
+    position: relative;
+    top: 200px;
+    left: 520px;
+    display: inline-block;
+
+}
+.image03{
+    position: relative;
+    top:80px;
+    left:315px;
+    display: inline-block;
+
+}
+.image04{
+    position: relative;
+    top:40px ;
+    left: 40px;
+    display: inline-block;
+
+}
+.image05{
+    position: relative;
+    top:100px;
+    left: -37%;
+    display: inline-block;
+
+}
+.image06{
+    position: relative;
+    top: 290px;
+    left: -70%;
+    display: inline-block;
+    
+}
+.image07{
+    position: relative;
+    top: 200px;
+    left: 210px;
+}
+.a1{
+    height: 100px;
+}
+.a2{
+    height: 100px;
+}
+.a3{
+    height: 100px;
+}
+.a4{
+    height: 100px;
+}
+.a5{
+    height: 100px;
+}
+
 /* the button of next and back codes */
 button {
     width: 60px;
